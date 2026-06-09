@@ -1,0 +1,69 @@
+[
+  {
+    "firstName": "Anna",
+    "lastName": "Kowalska",
+    "email": "anna@email.com",
+    "phone": "123456789",
+    "borrowings": [
+      {
+        "borrowingId": 1,
+        "book": {
+          "bookId": 1,
+          "title": "Pan Tadeusz",
+          "isbn": "9781234567890",
+          "publishedYear": 1834,
+          "author": {
+            "firstName": "Adam",
+            "lastName": "Mickiewicz",
+            "country": "Poland"
+          }
+        },
+        "borrowDate": "2026-05-01",
+        "returnDate": "2026-05-15",
+        "status": "Returned"
+      },
+      {
+        "borrowingId": 4,
+        "book": {
+          "bookId": 4,
+          "title": "Norwegian Wood",
+          "isbn": "9785566778899",
+          "publishedYear": 1987,
+          "author": {
+            "firstName": "Haruki",
+            "lastName": "Murakami",
+            "country": "Japan"
+          }
+        },
+        "borrowDate": "2026-06-01",
+        "returnDate": null,
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "firstName": "Jan",
+    "lastName": "Nowak",
+    "email": "jan@email.com",
+    "phone": "234567891",
+    "borrowings": [
+      {
+        "borrowingId": 2,
+        "book": {
+          "bookId": 2,
+          "title": "Pride and Prejudice",
+          "isbn": "9789876543210",
+          "publishedYear": 1813,
+          "author": {
+            "firstName": "Jane",
+            "lastName": "Austen",
+            "country": "United Kingdom"
+          }
+        },
+        "borrowDate": "2026-05-10",
+        "returnDate": null,
+        "status": "Active"
+      }
+    ]
+  }
+]
